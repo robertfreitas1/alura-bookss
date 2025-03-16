@@ -1,22 +1,17 @@
 
 import React from 'react';
 import './App.css';
-import logo from './images/logo.svg'
+import Logo from './componentes/logo'
 
 function App(){
   return(
     <div className='App'>
       <header className='app-header'>
-        <div className='logo'>
-        <img src={logo} className="App-logo" alt="logo" />
-
-          <p> <strong>Alura</strong> Books </p>
-
-        </div>
+        <Logo></Logo>
       </header>
 
     </div>
   )
 }
-export default App
+export default App;
 
