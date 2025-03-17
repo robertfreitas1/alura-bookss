@@ -1,0 +1,34 @@
+.opcoes{
+    display: flex;
+    gap: 50px;
+    
+    }
+ 
+    .opcao{
+      min-width: 120px;
+      font-size: large;
+      font-weight: 700;
+    }
+    
+    .opcoes li{
+      position: relative;
+      padding-bottom: 5px;
+    }
+    
+    .opcoes li::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #000;/* Cor da linha */
+      transition: width 0.7s ease-in-out; /* Suaviza a animação */
+    }
+    
+    
+    .opcoes li:hover::after {
+      width: 100%; /* A linha cresce ao passar o mouse */
+    }
+   
+    
