@@ -26,7 +26,7 @@ function UltimosLancamentos (){
     return(
 
         <UltimosLancamentosContainer>
-            <Titulo cor="#eb9b00" >Últimos Lançamentos</Titulo>
+            <Titulo cor="#eb9b00" tamanhoFonte="36px"  alinhamento="center" >Últimos Lançamentos</Titulo>
             <NovosLivrosContainer> 
 
             {livros.map(livro=> (
