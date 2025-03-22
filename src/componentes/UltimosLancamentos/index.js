@@ -40,7 +40,8 @@ function UltimosLancamentos (){
              titulo="Talvez você se interesse por..."
              subtitulo="Angular 11"
              descricao="Contruindo uma aplicação com a plataforma google"
-             img={imagemLivro}
+             img={imagemLivro
+             }
           />
 
         </UltimosLancamentosContainer>
